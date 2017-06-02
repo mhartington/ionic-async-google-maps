@@ -5,7 +5,7 @@ import { Component, EventEmitter, Output } from '@angular/core';
         <ng-content></ng-content>
   `
 })
-export class LoadMapComponent {
+export class LazyMapComponent {
   @Output() mapLoaded = new EventEmitter()
   scriptEl;
   apiUrl = 'https://maps.googleapis.com/maps/api/js';
